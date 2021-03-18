@@ -4,9 +4,8 @@ var myNestedArray = [
   ["Milka", 3],
 ];
 function myNestedFunction(arr) {
-  var arr = myNestedArray;
   return arr;
 }
 // Only change code above this line
-console.log(myNestedFunction()); // Change this line
+console.log(myNestedFunction(myNestedArray)); // Change this line
 module.exports = myNestedFunction;
